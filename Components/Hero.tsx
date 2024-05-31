@@ -18,18 +18,18 @@ const Hero = () => {
 
             <div className='flex justify-center relative my-20 z-10'>
                 <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-                    <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>Dynamic Web Magic with Next.js</h2>
+                    <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>Next.js ile Dinamik bir Web Projesi</h2>
                     <TextGenerateEffect
                         className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                        words='Transforming Concepts into Seamless Experiences'
+                        words='Kusursuz Kullanıcı Deneyimleri Özenle Seçilen Framework`ler'
                     />
 
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                        Hi, I&apos;m Efe Han, a React.js Developer based in Turkiye
+                        Merhaba, <br />ben Efe Han. Türkiye merkezli bir React.js Geliştiricisiyim
                     </p>
                     <a href="#about">
                         <MagicButtton
-                            title='Show my work'
+                            title='Projelerime göz atın'
                             icon={<FaLocationArrow />}
                             position='right'
                         />
